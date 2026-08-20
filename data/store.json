@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "name": "XANTRO Platform Admin",
+      "email": "admin@xantro.com",
+      "phone": "9876543210",
+      "role": "admin",
+      "authProvider": "mobile",
+      "passwordHash": "$2a$08$k5k8YFqYQ61537g77yF5.e4K3Z7M2bUj4gH7U.9880qBfL8y8Y0.a",
+      "agreedTermsVersion": "1.0",
+      "agreedTermsAt": "2026-08-20T00:00:00.000Z",
+      "addresses": [],
+      "giftCardBalance": 0,
+      "files": []
+    },
+    {
+      "id": "usr_seller_1",
+      "name": "Apex Retailers",
+      "email": "seller@apextech.com",
+      "phone": "9876500001",
+      "role": "seller",
+      "authProvider": "mobile",
+      "passwordHash": "$2a$08$k5k8YFqYQ61537g77yF5.e4K3Z7M2bUj4gH7U.9880qBfL8y8Y0.a",
+      "agreedTermsVersion": "1.0",
+      "agreedTermsAt": "2026-08-20T00:00:00.000Z",
+      "addresses": [
+        {
+          "id": "addr_seller_1",
+          "fullName": "Apex Tech Hub",
+          "phone": "9876500001",
+          "street": "42 Silicon Avenue, Sector 4",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "pinCode": "560001",
+          "isDefault": true
+        }
+      ],
+      "giftCardBalance": 0,
+      "files": [],
+      "sellerDetails": {
+        "storeName": "Apex Electronics & Gadgets",
+        "sellerUpiId": "apexretail@okaxis",
+        "bankAccountNumber": "XXXXXX9821",
+        "ifscCode": "HDFC0001234",
+        "listingFeesPaid": 0,
+        "totalSales": 0,
+        "settledAmount": 0,
+        "pendingSettlement": 0
+      }
+    },
+    {
+      "id": "usr_seller_2",
+      "name": "Urban Crafts & Lifestyle",
+      "email": "urban@lifestyle.com",
+      "phone": "9876500002",
+      "role": "seller",
+      "authProvider": "google",
+      "passwordHash": "$2a$08$k5k8YFqYQ61537g77yF5.e4K3Z7M2bUj4gH7U.9880qBfL8y8Y0.a",
+      "agreedTermsVersion": "1.0",
+      "agreedTermsAt": "2026-08-20T00:00:00.000Z",
+      "addresses": [],
+      "giftCardBalance": 0,
+      "files": [],
+      "sellerDetails": {
+        "storeName": "Urban Crafts Studio",
+        "sellerUpiId": "urbancrafts@icici",
+        "bankAccountNumber": "XXXXXX4411",
+        "ifscCode": "ICIC0005678",
+        "listingFeesPaid": 0,
+        "totalSales": 0,
+        "settledAmount": 0,
+        "pendingSettlement": 0
+      }
+    },
+    {
+      "id": "usr_buyer_demo",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@example.com",
+      "phone": "9812345678",
+      "role": "buyer",
+      "authProvider": "mobile",
+      "passwordHash": "$2a$08$k5k8YFqYQ61537g77yF5.e4K3Z7M2bUj4gH7U.9880qBfL8y8Y0.a",
+      "agreedTermsVersion": "1.0",
+      "agreedTermsAt": "2026-08-20T00:00:00.000Z",
+      "addresses": [
+        {
+          "id": "addr_buyer_1",
+          "fullName": "Rahul Sharma",
+          "phone": "9812345678",
+          "street": "Flat 302, Green Meadows, 14th Main Rd, Indiranagar",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "pinCode": "560038",
+          "isDefault": true
+        }
+      ],
+      "giftCardBalance": 0,
+      "files": []
+    }
+  ],
+  "products": [],
+  "orders": [],
+  "advertisements": [],
+  "listingFeeTransactions": [],
+  "giftCards": [
+    { "code": "XANTRO100", "amount": 100, "isUsed": false, "expiry": "2026-12-31" },
+    { "code": "XANTRO250", "amount": 250, "isUsed": false, "expiry": "2026-12-31" },
+    { "code": "XANTRO500", "amount": 500, "isUsed": false, "expiry": "2026-12-31" },
+    { "code": "FESTIVE1000", "amount": 1000, "isUsed": false, "expiry": "2026-12-31" }
+  ],
+  "platformSettings": {
+    "sellerListingFeePercent": 1,
+    "advertisementFeeAmount": 100,
+    "ownerUpiId": "6363048473@ybl",
+    "termsVersion": "1.0",
+    "platformRevenue": {
+      "listingFeesTotal": 0,
+      "advertisementTotal": 0
+    }
+  }
+}

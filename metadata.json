@@ -1,0 +1,6 @@
+{
+  "name": "XANTRO - Multi-Vendor Marketplace",
+  "description": "A full-stack multi-vendor e-commerce marketplace connecting independent sellers and buyers with real product listings, search, cart, orders, automated UPI listing fees, ads, and order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
